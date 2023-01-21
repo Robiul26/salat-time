@@ -1,0 +1,129 @@
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            color: lightgreen;
+            transition: .4s;
+            font-size: 25px;
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            background: black;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .frame-container {
+            position: relative;
+            width: 350px;
+            height: 615px;
+            background: black;
+            padding: 5px;
+            border-radius: 165px 165px 0 0;
+            border: 5px solid red;
+
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            flex-direction: column;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+
+        .setup-time {
+            position: absolute;
+            right: 10px;
+            top: 110px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .back-btn {
+            position: absolute;
+            left: 30px;
+            top: 50px;
+            cursor: pointer;
+            font-size: 50px;
+        }
+
+        .frame-container form {
+            padding-top: 100px;
+        }
+
+        #day-name {
+            padding: 5px 0;
+        }
+
+        form p {
+            padding-bottom: 10px;
+        }
+
+        .header-title {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .footer-title span {
+            font-size: 14px;
+            margin-top: 30px;
+            color: darkgray;
+        }
+
+        .footer-title a {
+            font-size: 14px;
+        }
+
+        button {
+            background: black;
+            color: lightgreen;
+            padding: 8px;
+            font-size: 20px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid lightgreen;
+            cursor: pointer;
+        }
+
+        table {
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 100px;
+            font-size: 15px;
+            color: black;
+            background: lightgreen;
+            padding-left: 5px;
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            height: 30px;
+        }
+        .digital-clock , .digital-clock span{
+            color: red;
+            font-weight: 800;
+            font-size: 30px;
+        }
+        #am-pm{
+            font-size: 14px;
+        }
+        .download-app{
+            font-size: 12px;
+            font-family: cursive;
+            color: lightskyblue;
+            padding-bottom: 20px;
+        }

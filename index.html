@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>PWP</title>
+    <link rel="stylesheet" href="./src/master.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/logo192.png">
+</head>
+
+<body>
+    <div class="frame-container" id="output-form">
+        <img style="width: 150px; padding-bottom: 5px;" src="./images/logo192.png" alt="">
+        <div class="digital-clock">
+            <span id="hour">07</span>:<span id="minute">30</span>:<span id="second">00 </span> <span
+                id="am-pm">PM</span>
+        </div>
+        <div class="current-date">
+            <span id="date"></span>
+            <span id="month"></span>
+            <span id="year"></span>
+        </div>
+        <p id="day-name"></p>
+        <div class="header-title">
+            <u>নামাজের সময় সূচি</u>
+        </div>
+        <table style="width: 100%;">
+            <tr>
+                <td>ফজর</td>
+                <td>=></td>
+                <td class="text-end" id="fazar">5:40</td>
+            </tr>
+            <tr>
+                <td>যোহর</td>
+                <td>=></td>
+                <td class="text-end" id="johor">5:40</td>
+            </tr>
+            <tr>
+                <td>আসর</td>
+                <td>=></td>
+                <td class="text-end" id="asor">5:40</td>
+            </tr>
+            <tr>
+                <td>মাগরিব</td>
+                <td>=></td>
+                <td class="text-end" id="magrib">5:40</td>
+            </tr>
+            <tr>
+                <td>ইশার</td>
+                <td>=></td>
+                <td class="text-end" id="esha">5:40</td>
+            </tr>
+            <tr>
+                <td>জুম'আ</td>
+                <td>=></td>
+                <td class="text-end" id="jumma">12:00</td>
+            </tr>
+            <tr>
+                <td>সূর্যোদয়</td>
+                <td>=></td>
+                <td class="text-end" id="sunrise">5:40</td>
+            </tr>
+            <tr>
+                <td>সূর্যাস্ত</td>
+                <td>=></td>
+                <td class="text-end" id="sundown">5:40</td>
+            </tr>
+            <tr>
+                <td>সাহরীর শেষ সময়</td>
+                <td>=></td>
+                <td class="text-end" id="sahri">0:00</td>
+            </tr>
+            <tr>
+                <td>ইফতার</td>
+                <td>=></td>
+                <td class="text-end" id="iftar">0:00</td>
+            </tr>
+        </table>
+        <div class="footer-title">
+            <span>&copy; 2023 Developed by <a href="https://fb.com/robiidb">Robiul</a></span>
+        </div>
+        <a class="download-app"
+            href="https://drive.google.com/file/d/1QkuiVdovjNqrBKATMZ3VAQzT-tvIpQSn/view?usp=sharing" download>Download
+            App</a>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+
+
+
+    <script src="./src/index.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
