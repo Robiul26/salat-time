@@ -1,6 +1,6 @@
 {
-    "name":"decode PWA example",
-    "short_name":"dcode PWA example",
+    "name":"decode PWA Salat-Time",
+    "short_name":"dcode PWA Salat-Time",
     "start_url":".",
     "background_color":"#6dcdb1",
     "theme_color":"#009578",
